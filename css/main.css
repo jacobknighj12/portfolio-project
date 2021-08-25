@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    background-image: url("dungeonbg.png");
+}
+.largeButtons{
+    
+}
+.dungeon{
+    background-image: url("../images/dungeonbg.png");
+    border: 3px solid black;
+    background-size: cover;
+}
