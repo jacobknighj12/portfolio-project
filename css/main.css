@@ -107,7 +107,8 @@ p1 {
 .underscore {
   animation-name: _flash;
   animation-iteration-count: infinite;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
+  font-size: 30px;
 }
 @keyframes hold {
 }
