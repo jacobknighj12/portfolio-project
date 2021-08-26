@@ -1,12 +1,121 @@
 * {
-    padding: 0;
-    background-image: url("dungeonbg.png");
+  z-index: 1;
+  color: rgb(238, 233, 226);
 }
-.largeButtons{
-    
+html,
+body {
+  background-image: url("../images/windows-10.jpg");
+  background-size: cover;
+  font-family: "Titillium Web", "lato", sans-serif;
+  background-color: rgb(11, 11, 11);
 }
-.dungeon{
-    background-image: url("../images/dungeonbg.png");
-    border: 3px solid black;
-    background-size: cover;
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,900|Lato:100,300,900);
+
+.dungeon {
+  /* background-image: url("../images/dungeonbg.png"); */
+  padding: 1rem;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+
+  color: #999999;
+
+  z-index: -10;
+  height: auto;
+  width: auto;
+}
+.topnav {
+  top: 0;
+  width: 100%;
+  height: 28%;
+  z-index: 1000;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 250%;
+  align-self: flex-end;
+}
+h1 {
+  padding-top: 0%;
+  margin: 0;
+}
+.img {
+  z-index: -10;
+  min-height: 100%;
+  min-width: 100%;
+}
+.wrapper {
+  font-size: 0;
+}
+a:link {
+  text-decoration: none;
+  overflow: hidden;
+  height: 15%;
+  text-decoration-color: black;
+}
+a:hover {
+  text-decoration: none;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: buttonFlash;
+  text-decoration-color: black;
+}
+a:visited {
+  text-decoration-color: black;
+  text-decoration: none;
+}
+a:active {
+  text-decoration-color: black;
+  text-decoration: none;
+}
+.terminal {
+  padding-top: 12%;
+  width: 100%;
+}
+.terminal-space {
+  background-color: rgb(11, 11, 11);
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+p1 {
+  /* padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%; */
+  font-size: 22px;
+}
+.dungeonlink {
+  size: 10rem;
+}
+.navButtons {
+  padding-right: 1.5rem;
+}
+.commandLocation {
+  color: darkgreen;
+}
+.commandInput {
+  color: blue;
+}
+.money {
+  color: white;
+}
+.underscore {
+  animation-name: _flash;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
+@keyframes hold {
+}
+@keyframes _flash {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
 }
