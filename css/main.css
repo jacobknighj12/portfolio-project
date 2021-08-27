@@ -4,18 +4,18 @@
 }
 html,
 body {
-  background-image: url("../images/windows-10.jpg");
   background-size: cover;
-  font-family: "Titillium Web", "lato", sans-serif;
+  background: repeat-y url("../images/windows-10.jpg");
+  font-family: "Ubuntu Mono", monospace;
   background-color: rgb(11, 11, 11);
 }
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,900|Lato:100,300,900);
-
-.dungeon {
-  /* background-image: url("../images/dungeonbg.png"); */
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap);
+li {
   padding: 1rem;
 }
-
+ul {
+  margin: 0;
+}
 .background {
   display: flex;
   justify-content: center;
@@ -48,6 +48,7 @@ h1 {
 }
 .wrapper {
   font-size: 0;
+  flex: 1;
 }
 a:link {
   text-decoration: none;
@@ -70,7 +71,7 @@ a:active {
   text-decoration: none;
 }
 .terminal {
-  padding-top: 10%;
+  width: 100%;
 }
 .terminal-space {
   background-color: rgb(11, 11, 11);
@@ -138,6 +139,9 @@ p1 {
     opacity: 100%;
     pointer-events: all;
   }
+  .terminal {
+    width: max-content;
+  }
 }
 @media screen and (min-width: 1201px) {
   .topnav {
@@ -195,8 +199,7 @@ p1 {
 .dropdown:hover .dropbtn {
   background-color: rgb(0, 0, 0);
 }
-.apps {
-}
+
 .windowsApps {
   display: flex;
   flex-direction: row;
