@@ -4,6 +4,7 @@
 }
 html,
 body {
+  white-space: normal;
   background-size: cover;
   background: repeat-y url("../images/windows-10.jpg");
   font-family: "Ubuntu Mono", monospace;
@@ -83,9 +84,8 @@ h2 {
   font-size: 30px;
 }
 p1 {
-  /* padding: 10%;
-  padding-left: 10%;
-  padding-right: 10%; */
+  padding: 0;
+  margin: 0;
   font-size: 22px;
 }
 .dungeonlink {
@@ -139,8 +139,8 @@ p1 {
     opacity: 100%;
     pointer-events: all;
   }
-  .terminal {
-    width: max-content;
+  .windowsBarTop {
+    opacity: 0;
   }
 }
 @media screen and (min-width: 1201px) {
@@ -159,7 +159,7 @@ p1 {
 
 .dropbtn {
   color: white;
-  padding: 22px;
+  padding: 12px;
   font-size: 28px;
   border: none;
 }
@@ -171,7 +171,7 @@ p1 {
   background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 3;
   color: white;
 }
 
@@ -204,12 +204,33 @@ p1 {
   display: flex;
   flex-direction: row;
 }
-.windowsBar {
+.windowsBarTop {
   position: absolute;
+  z-index: 1;
+}
+.windowsBarBottom {
+  position: absolute;
+  z-index: 1;
 }
 .input {
   background-color: black;
 }
 .paragraphs {
-  padding-bottom: 5px;
+  margin: 10000px;
+}
+
+.svgs {
+  display: flex;
+  background-color: rgb(243, 240, 167);
+}
+.windowBox {
+  color: black;
+  font-size: 20px;
+  background-color: rgb(243, 240, 167);
+}
+#navigate {
+  color: white;
+  background-color: black;
+  border: 0;
+  outline: none;
 }
