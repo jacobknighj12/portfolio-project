@@ -216,7 +216,8 @@ p1 {
   background-color: black;
 }
 .paragraphs {
-  margin: 10000px;
+  /* margin: 300px; */
+  /* padding-left: 20px; */
 }
 
 .svgs {
@@ -240,4 +241,6 @@ p1 {
 }
 .iconH:hover {
   background-color: grey;
+}
+.content {
 }
