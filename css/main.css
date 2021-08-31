@@ -56,6 +56,7 @@ a:link {
   overflow: hidden;
   height: 15%;
 }
+
 a:hover {
   text-decoration: none;
   animation-duration: 1.5s;
@@ -126,7 +127,7 @@ p1 {
   opacity: 0%;
   pointer-events: none;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1380px) {
   .topnav {
     opacity: 0%;
     pointer-events: none;
@@ -143,7 +144,7 @@ p1 {
     opacity: 0;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1381x) {
   .topnav {
     opacity: 100%;
     pointer-events: all;
@@ -216,10 +217,11 @@ p1 {
   background-color: black;
 }
 .paragraphs {
-  /* margin: 300px; */
-  /* padding-left: 20px; */
+  padding: 0 0 10px 0;
 }
-
+section > div {
+  margin-bottom: 20px;
+}
 .svgs {
   display: flex;
   background-color: rgb(243, 240, 167);
@@ -243,4 +245,5 @@ p1 {
   background-color: grey;
 }
 .content {
+  display: inline;
 }

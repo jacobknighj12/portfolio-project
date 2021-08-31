@@ -90,23 +90,29 @@
         <p>
           <a
             href="https://dev.to/lennythedev/show-off-your-github-repos-in-your-gatsby-site-using-graphql-421l"
-            ><img src="..//images/gitexample.PNG" />
+            ><img src="..//images/gitexample.PNG" width="300px" />
           </a>
         </p>
-
-        <p1 class="paragraphs">
-          The next project Im very happy with would be
-          <a
-            class="textlink"
-            href="https://github.com/jacobknighj12/Guessing-Game"
-            >My ruby Guessing-Game</a
-          >
-          I made this because I was worried that I may not get into coder
-          academy due to not having completed year 12 and leaving early year 11.
-          I was very happy with the end result due to at the start not knowing
-          any ruby and in about 1 week of programming having completed a full
-          working guessing game that pulls information from text files.
-        </p1>
+        <section>
+          <div>
+            <p1 class="paragraphs">
+              The next project Im very happy with would be
+              <a
+                class="textlink"
+                href="https://github.com/jacobknighj12/Guessing-Game"
+                >My ruby Guessing-Game</a
+              >
+              I made this because I was worried that I may not get into coder
+              academy due to not having completed year 12 and leaving early year
+              11. I was very happy with the end result due to at the start not
+              knowing any ruby and in about 1 week of programming and having
+              completed a full working guessing game that pulls information from
+              text files with a bunch of other fancy things all working
+              together.
+            </p1>
+          </div>
+          <img src="../images/Guessingwords.PNG" />
+        </section>
         <p1
           >The third project that is still in progress is a full conversion of
           my Guessing-Game into
@@ -117,8 +123,13 @@
           gotten around to completing it now that I am full time studying at
           Coder Academy.
         </p1>
+
         <p1 class="underscore">_</p1>
+        <div></div>
+        <img src="../images/hangman.PNG" />
       </div>
+
+      <!-- windows bar -->
       <div>
         <img
           class="windowsBarBottom"
@@ -238,6 +249,25 @@
         </section>
       </div>
     </div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDl2E75L0IcCCIKz_YQQAQNLI_MtM-eXws",
+        authDomain: "resume-5566e.firebaseapp.com",
+        projectId: "resume-5566e",
+        storageBucket: "resume-5566e.appspot.com",
+        messagingSenderId: "68153601709",
+        appId: "1:68153601709:web:cc75c05f4413daa954e024",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
 <script src="../js/tilt.js"></script>
