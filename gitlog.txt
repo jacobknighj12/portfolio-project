@@ -1,0 +1,119 @@
+commit 8fe88a0e0729324e5ebc940d562c154a79ecc95b
+Author: Jacob Knight <78334099+jacobknighj12@users.noreply.github.com>
+Date:   Thu Sep 2 12:57:47 2021 +1000
+
+    README
+
+commit 63cc44826c3d755ad35cf6e1da842622bcc8f7d1
+Author: Jacob Knight <78334099+jacobknighj12@users.noreply.github.com>
+Date:   Thu Sep 2 12:56:42 2021 +1000
+
+    Full README.txt upload
+
+commit e8b59a9ad820a534824f3176b02db7dba1e1fdae
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Thu Sep 2 12:52:23 2021 +1000
+
+    day 5.5 polish with small additions
+
+commit 6bdf0c581494cfd78d5daed0b23067ba576c2f45
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Thu Sep 2 12:51:19 2021 +1000
+
+    day 5.5 polish with small additions
+
+commit 6e714f96f9b01641c94bcbe2c6f458ba7e53726a
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Wed Sep 1 16:22:52 2021 +1000
+
+    netlify
+
+commit 2dd581c9bfbd22069969033ca6bd39f79ea8ad41
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Wed Sep 1 15:31:18 2021 +1000
+
+    netlify
+
+commit 16e5cde1ff18f5fbda81e39da4303cbed87c23cc
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Wed Sep 1 14:40:53 2021 +1000
+
+    day 5 polish and additions
+
+commit 726a3d3f699b1f43fc2e3e615968934b97ac4341
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Tue Aug 31 16:31:18 2021 +1000
+
+    day 4 polish and small content additions
+
+commit f47024afa83f8497e67730f47bc81146e03a4879
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Tue Aug 31 15:09:09 2021 +1000
+
+    day 4 polish and small content additions
+
+commit 0ec0767dd59599ef4d562e7a76335e5fc4c62f28
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Mon Aug 30 19:43:04 2021 +1000
+
+    More bens help
+
+commit 5b769b49d074ffaf41ce3b4f537824d7362b3e13
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Mon Aug 30 15:58:45 2021 +1000
+
+    Taskbars are done! fixed up a lot of small issues along the way too
+
+commit 3cc3514ea3715a4a9964f82c6fb65d6825543f95
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Mon Aug 30 14:57:16 2021 +1000
+
+    fully implemented the terminal, that page should be done now and fixing the taskbars now
+
+commit 5ca1b92ee8b3f84ec798387c232f6a313a453baf
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Sat Aug 28 23:10:25 2021 +1000
+
+    did a few content additions
+
+commit f56d3ce5d2f23b0dc91f5c1e539743ed17a12d74
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Fri Aug 27 19:20:40 2021 +1000
+
+    got a bunch of troubleshooting help from a friend fixed a few bugs and got some good workarounds
+
+commit 813ad5ba441e7ff0520cc5ae35d1c37747fb6769
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Fri Aug 27 16:39:29 2021 +1000
+
+    lots of work on index added another cool element finished off a lot of the basic set up and made a taskbar too
+
+commit 9c04b90d94452a6a1550219bc81e361a3a7572e9
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Thu Aug 26 16:00:06 2021 +1000
+
+    probabbly a bit late but reworked everything.. modifyed somthing taking a break now
+
+commit 97b6ed984f0f65d984c90e8ae9c79d66686e3f07
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Thu Aug 26 15:46:51 2021 +1000
+
+    probabbly a bit late but reworked everything..
+
+commit bd793e5260fb518570105dcfefeb96c557c8127f
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Wed Aug 25 17:30:19 2021 +1000
+
+    bunches of content and additions
+
+commit 0e1ecc73ab9e397317b71fbe3766d655faf688b3
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Wed Aug 25 14:50:15 2021 +1000
+
+    why are buttons not working
+
+commit 45a61e9330aaf34475f4dd9ff43c2e561567bba6
+Author: Jacob Knight <78334099+jacobknighj12@users.noreply.github.com>
+Date:   Wed Aug 25 14:18:21 2021 +1000
+
+    Initial commit
