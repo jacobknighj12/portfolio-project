@@ -1,3 +1,33 @@
+commit 7bfd2141c118a72bb8b2ca836f779996f480dcab
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Fri Sep 3 14:42:37 2021 +1000
+
+    more requirements keep popping up the harder I look
+
+commit 83853e497ef3c311e20ef2e41a707b5b276915af
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Fri Sep 3 14:06:34 2021 +1000
+
+    added images to all blog posts because of the requirement
+
+commit c445d895ead5335bf812e7a528d6642db073e68e
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Fri Sep 3 14:06:00 2021 +1000
+
+    added images to all blog posts because of the requirement
+
+commit c69ebb859194e291d0ae862ac253d14d9ae408fd
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Fri Sep 3 12:34:59 2021 +1000
+
+    added all comments that would give the most information and understanding of how things connect
+
+commit fd20c776edb96098452478d19f90db0c4e9cf668
+Author: Jacob K <jacobknighj@gmail.com>
+Date:   Thu Sep 2 17:10:25 2021 +1000
+
+    fixed a hash after editing it and fixed a bug with the nav on mobile
+
 commit 8fe88a0e0729324e5ebc940d562c154a79ecc95b
 Author: Jacob Knight <78334099+jacobknighj12@users.noreply.github.com>
 Date:   Thu Sep 2 12:57:47 2021 +1000
