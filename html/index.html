@@ -53,7 +53,10 @@
   </nav>
   <!-- for some reason validators dont like my body tag and say its already open and scream at every page for it please forgive me -->
   <body>
-    <!-- This wrapper and specificly "data-tilt" is what gives the whole div the tilt effect a core piece of the concept -->
+    <!-- This wrapper and specificly "data-tilt" is what gives the whole div the tilt effect a core piece of the concept 
+    Additionally there was a reset when the mouse was no longer hovering over in the script if you reset it to 0 it will do so, however
+    it also appears very jankey due to the way its ment for much smaller tiles and for much wider range of movement, I lowered
+      all of the rotation angles down from 180 to 5 -->
     <div class="wrapper" data-tilt>
       <img
         class="windowsBarTop"
