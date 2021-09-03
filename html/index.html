@@ -24,10 +24,9 @@
       integrity="sha512-YKwKQfybEJ9TtAc37OgTpHH+2NX0dz+vdUS61kpz7HNFgzgERBLs7DCCl56GJqXrXWECaIFRt3GufPjOD5qGeA=="
     ></script>
   </head>
+  <!-- This nav is the primary nav and used for any screen at or over 1381px 
+    specificly that number because the headdings colapse down and look dreadful -->
   <nav class="topnav">
-    <!-- <div class="warpper">
-    <img class="img" src="../images/windows-10.jpg" alt="windows 10 background"></div> -->
-
     <a class="navButtons" href="../html/index.html">Home</a>
     <a class="navButtons" href="../html/projects.html">Projects</a>
     <a class="navButtons" href="../html/personalDetails.html"
@@ -38,7 +37,9 @@
     >
     <a class="navButtons" href="../html/blogSpot.html">Blogspot</a>
   </nav>
-  <nav class="topnav">
+  <!-- This is the secondary Nav used for any device or screen at or smaller than 1380
+   with a large button with drop down for ease of use -->
+  <nav>
     <div class="dropdown">
       <a class="dropbtn">Menu</a>
       <div class="dropdown-content">
@@ -50,13 +51,16 @@
       </div>
     </div>
   </nav>
+  <!-- for some reason validators dont like my body tag and say its already open and scream at every page for it please forgive me -->
   <body>
+    <!-- This wrapper and specificly "data-tilt" is what gives the whole div the tilt effect a core piece of the concept -->
     <div class="wrapper" data-tilt>
       <img
         class="windowsBarTop"
         src="../images/windows10taskbar.PNG"
-        width="98.7%"
+        width="98%"
         height="27px"
+        alt="windows task bar image"
       />
       <div class="svgs">
         <svg
@@ -79,7 +83,6 @@
           >jacobknighj@DESKTOP-4NHHED6: ~/portfolio-project</p1
         >
       </div>
-
       <div class="terminal-space">
         <div>
           <p1 class="commandLocation"> jacobknighj@DESKTOP-4NHHED6: </p1>
@@ -140,6 +143,7 @@
           </div>
         </div>
       </div>
+      <!-- This div being the container for all of the elements in the windows bar at the bottom of the terminal screens -->
       <div>
         <img
           class="windowsBarBottom"
@@ -284,6 +288,9 @@
     </div>
   </body>
 </html>
+<!-- This script is here because it doesnt want to work anywhere else valditator doesnt like it 
+and gives it a fatal error seems fine in hosting and in local so im not sure what the issue is
+The script is the source of the tilt effect and is applied to the parent to all inside  -->
 <script
   src="../js/tilt.js"
   integrity="sha512-ttMhjTcPI0pt3JdgzCn9/s8a3XdimF3lNm/nIR+qgNei9vIi8z91GKbGC1al+jSD/4nU0SZT2F49ESt344eEhQ=="

@@ -14,10 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlogSpot</title>
   </head>
+  <!-- This nav is the primary nav and used for any screen at or over 1381px 
+    specificly that number because the headdings colapse down and look dreadful -->
   <nav class="topnav">
-    <!-- <div class="warpper">
-    <img class="img" src="../images/windows-10.jpg" alt="windows 10 background"></div> -->
-
     <a class="navButtons" href="../html/index.html">Home</a>
     <a class="navButtons" href="../html/projects.html">Projects</a>
     <a class="navButtons" href="../html/personalDetails.html"
@@ -28,6 +27,8 @@
     >
     <a class="navButtons" href="../html/blogSpot.html">Blogspot</a>
   </nav>
+   <!-- This is the secondary Nav used for any device or screen at or smaller than 1380
+   with a large button with drop down for ease of use -->
   <nav>
       <div class="dropdown">
       <a class="dropbtn">Menu</a>
@@ -40,12 +41,14 @@
       </div>
     </div>
   </nav>
+  <!-- for some reason validators dont like my body tag and say its already open and scream at every page for it please forgive me -->
   <body>
+    <!-- This wrapper and specificly "data-tilt" is what gives the whole div the tilt effect a core piece of the concept -->
     <div class="wrapper" data-tilt>
       <img
         class="windowsBarTop"
         src="../images/windows10taskbar.PNG"
-        width="98.7%"
+        width="98%"
         height="27px"
       />
       <div class="svgs">
@@ -177,15 +180,18 @@
               some more, and added a nice TLDR on the home page for quick understanding and a download link
               for recruiters if I do plan on using this page Professionally.
             </li>
+            <li>Day 5.6 SWEET LORD WHY IS THE MENU BUG BACK. Im over here just trying to validate html and it rears its ugly head.</li>
           </ul>
         </p1>
       </div>
+      <!-- This div being the container for all of the elements in the windows bar at the bottom of the terminal screens -->
       <div>
         <img
           class="windowsBarBottom"
           src="../images/windows10taskbar.PNG"
           width="100%"
           height="40px"
+          alt="windows task bar image"
         />
         <section class="windowsApps">
           <img
@@ -322,7 +328,9 @@
           </section>
       </div>
     </div>
-    
   </body>
 </html>
+<!-- This script is here because it doesnt want to work anywhere else valditator doesnt like it 
+and gives it a fatal error seems fine in hosting and in local so im not sure what the issue is
+The script is the source of the tilt effect and is applied to the parent to all inside  -->
 <script src="../js/tilt.js" integrity="sha512-ttMhjTcPI0pt3JdgzCn9/s8a3XdimF3lNm/nIR+qgNei9vIi8z91GKbGC1al+jSD/4nU0SZT2F49ESt344eEhQ=="></script>
